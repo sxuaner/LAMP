@@ -9,7 +9,7 @@ Platforms
 
 HowTo
 ----------
-1. Add MariaDB repo.
+###1. Add MariaDB repo.
 ```ruby
    [mariadb]
    name = MariaDB
@@ -17,7 +17,7 @@ HowTo
    gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
    gpgcheck=1
 ```
-2. Install
+###2. Install
 * On RHEL/CentOS 6/5 and Fedora 19,18,17:
 
         $ yum -y install MariaDB MariaDB-server
