@@ -18,9 +18,10 @@ HowTo
    gpgcheck=1
 ```
 2. Install
-- On RHEL/CentOS 6/5 and Fedora 19,18,17:
+- On RHEL/CentOS 6/5 and Fedora 19,18,17
 
-    $ yum -y install MariaDB MariaDB-server
+        $ yum -y install MariaDB MariaDB-server
+
 - On Fedora 20:
 
         $ yum -y install mariadb mariadb-server
