@@ -1,19 +1,25 @@
-1. Add MariaDB repo
+LAMP server
+===========
 
-[mariadb]
-name = MariaDB
-baseurl = http://yum.mariadb.org/5.5/rhel6-amd64
-gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
-gpgcheck=1
+Requirement
+----------
+### Platforms
+-3.10.0-229.el7.x86_64
 
-2. Install 
-# On RHEL/CentOS 6/5 and Fedora 19,18,17 #
-[root@tecmint]# yum -y install MariaDB MariaDB-server
+HowTo
+----------
+1. Add MariaDB repo.
+   [mariadb]
+   name = MariaDB
+   baseurl = http://yum.mariadb.org/5.5/rhel6-amd64
+   gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+   gpgcheck=1
 
-# On Fedora 20 #
-[root@tecmint]# yum -y install mariadb mariadb-server
+2. Install
+-On RHEL/CentOS 6/5 and Fedora 19,18,17 #
+    $ yum -y install MariaDB MariaDB-server
+-On Fedora 20 #
+    $ yum -y install mariadb mariadb-server
 
-
-3. /etc/init.d/mysql start
-
-
+3. Start MariaDB
+    $ /etc/init.d/mysql start
