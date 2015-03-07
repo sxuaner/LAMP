@@ -26,6 +26,6 @@ HowTo
 
         $ yum -y install mariadb mariadb-server
 
-3. Start MariaDB:
+###3. Start MariaDB:
 
         $ /etc/init.d/mysql start
