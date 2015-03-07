@@ -1,12 +1,10 @@
-LAMP server
+LAMP Server Setup
 ===========
 
-Requirement
-----------
 ### Platforms
 -3.10.0-229.el7.x86_64
 
-HowTo
+### HowTo
 ----------
 1. Add MariaDB repo.
    [mariadb]
