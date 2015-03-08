@@ -19,7 +19,8 @@ HowTo
    gpgcheck=1
 ```
 * Yum repos:[Additional Repositories](http://wiki.centos.org/AdditionalResources/Repositories)
-   IUS Community Repo provides the "latest upstream versions of PHP, Python, MySQL"
+## IUS Community Repo provides the "latest upstream versions of PHP, Python, MySQL".
+
 ###2. Install
 * On RHEL/CentOS 6/5 and Fedora 19,18,17:
 
