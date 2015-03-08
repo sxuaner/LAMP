@@ -37,4 +37,6 @@ HowTo
 ###4. Install WordPress
          $ yum install wordpress
 
-###5.Use phpMyAdmin to manage remote database
+###5. Use phpMyAdmin to manage remote database
+
+###6. Also, dont' forget to install php.
