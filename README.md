@@ -40,3 +40,5 @@ HowTo
 ###5. Use phpMyAdmin to manage remote database
 
 ###6. Also, dont' forget to install php.
+
+         CREATE USER 'jeffrey'@'localhost' IDENTIFIED BY 'mypass';
