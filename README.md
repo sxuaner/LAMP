@@ -1,8 +1,8 @@
 LAMP Server Setup
 ============
-Installation and configuration of LAMP server. A security policy will be added later.
+Installation and configuration of LAMP server. A security policy will be added later. Assuming we run all following commands as root.
 
-Platforms
+Requirements:
 ------------
 - RHEL 3.10.0-229.el7.x86_64
 - MySql Ver 15.1 Distrib 5.5.42-MariaDB, for Linux (x86_64) using readline 5.1
@@ -29,3 +29,13 @@ HowTo
 ###3. Start MariaDB:
 
         $ /etc/init.d/mysql start
+
+###4. Install WordPress
+* Yum repos
+Before we start installing wordpress, we need to add a yum repo.
+[Additional Repositories](http://wiki.centos.org/AdditionalResources/Repositories)
+IUS Community Repo provides the "latest upstream versions of PHP, Python, MySQL"
+* WordPress:
+         $ yum install wordpress
+
+###5.Use phpMyAdmin to manage remote database
