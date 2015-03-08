@@ -35,8 +35,6 @@ HowTo
         $ /etc/init.d/mysql start
 
 ###4. Install WordPress
-
-* WordPress:
          $ yum install wordpress
 
 ###5.Use phpMyAdmin to manage remote database
