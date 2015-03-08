@@ -21,7 +21,7 @@ HowTo
 * [IUS Community Repo](http://wiki.centos.org/AdditionalResources/Repositories)
  provides the "latest upstream versions of PHP, Python, MySQL".
 
-###2. Install
+###2. Install MariaDB and Server
 * On RHEL/CentOS 6/5 and Fedora 19,18,17:
 
         $ yum -y install MariaDB MariaDB-server
