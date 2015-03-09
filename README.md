@@ -42,3 +42,5 @@ HowTo
 ###6. Also, dont' forget to install php.
 
          CREATE USER 'jeffrey'@'localhost' IDENTIFIED BY 'mypass';
+         
+###7. phpMyAdmin config file :/etc/httpd/conf.d/phpMyAdmin.conf.
