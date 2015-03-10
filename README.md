@@ -50,7 +50,7 @@ HowTo
 - Config file :/etc/httpd/conf.d/phpMyAdmin.conf.
 - The same for wordpress.conf.
 - Access control file format
-- Keyword:
+- Keywords:
 ```ruby
 <RequireAny>, <RequireAll>, <RequireNone>'
 ```
