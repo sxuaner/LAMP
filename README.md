@@ -2,6 +2,8 @@ LAMP Server Setup
 ============
 Installation and configuration of LAMP server. A security policy will be added later. Assuming we run all following commands as root.
 
+!!! While I was installing MySql and wordpress, there were some packages on my RHEL server needed but not found in yum repos. Search on the internet if you encounter any of that kind of problem.!!!
+
 Requirements:
 ------------
 - RHEL 3.10.0-229.el7.x86_64
