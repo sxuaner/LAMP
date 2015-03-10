@@ -46,7 +46,8 @@ HowTo
 
          CREATE USER 'jeffrey'@'localhost' IDENTIFIED BY 'mypass';
          
-###8. phpMyAdmin config file :/etc/httpd/conf.d/phpMyAdmin.conf.
--The same for wordpress.conf.
--Access control file format
--Keyword: <RequireAny> <RequireAll><RequireNone>
+###8. phpMyAdmin Access Config
+- Config file :/etc/httpd/conf.d/phpMyAdmin.conf.
+- The same for wordpress.conf.
+- Access control file format
+- Keyword: <RequireAny> <RequireAll><RequireNone>
