@@ -42,7 +42,8 @@ HowTo
 ###5. Use phpMyAdmin to manage remote database
 
 ###6. Also, dont' forget to install php.
+###7. MySql command to create a user.
 
          CREATE USER 'jeffrey'@'localhost' IDENTIFIED BY 'mypass';
          
-###7. phpMyAdmin config file :/etc/httpd/conf.d/phpMyAdmin.conf.
+###8. phpMyAdmin config file :/etc/httpd/conf.d/phpMyAdmin.conf.
